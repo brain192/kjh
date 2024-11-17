@@ -7,14 +7,16 @@ import org.springframework.stereotype.Service;
 import com.test.test.repository.User1Repo;
 import com.test.test.vo.User1VO;
 
+import java.util.List;
+
 @Service
 public class User1Service {
 
     @Autowired
     private User1Repo repo;
 
-    @Autowired
-    private User1DAO dao;
+//    @Autowired
+//    private User1DAO dao;
 
     public void insertUser1(User1VO vo) {
         // MyBatis

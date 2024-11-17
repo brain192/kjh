@@ -2,13 +2,13 @@ package com.test.test.dto;
 
 import java.util.List;
 
-import org.apache.ibatis.annotations.Mapper;
+//import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 import com.test.test.vo.User1VO;
 
-@Mapper
-@Repository
+//@Mapper
+//@Repository
 public interface User1DAO {
 
     public void insertUser1(User1VO vo);
