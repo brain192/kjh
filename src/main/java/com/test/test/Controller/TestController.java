@@ -64,7 +64,7 @@ public class TestController {
 /**
  * <p> DB 테스트 연결 URL</p>
  * @author hs
- *
+ * @작성자 내용
  */
 
 @RestController
@@ -97,7 +97,7 @@ public class TestController {
         return "input:" + result.toString();
     }
 }
-
+//abcd
 
 //@Controller
 //public class TestController {
