@@ -13,6 +13,11 @@ java {
 	}
 }
 
+//컴파일시 오류 추가
+compileJava {
+	options.compilerArgs
+}
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
